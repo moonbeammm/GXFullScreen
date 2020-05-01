@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E2678F224568E3D00EBB24E /* GXPushTransitionTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2678F124568E3D00EBB24E /* GXPushTransitionTableVC.m */; };
+		8E2678F7245691BA00EBB24E /* GXPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2678F6245691BA00EBB24E /* GXPlayerVC.m */; };
+		8E2678FA2456920200EBB24E /* GXFullScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2678F92456920200EBB24E /* GXFullScreenVC.m */; };
+		8E2678FD2456BB4A00EBB24E /* GXNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2678FC2456BB4A00EBB24E /* GXNavigationVC.m */; };
+		8E2679012456BD2900EBB24E /* GXPushTransitionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2679002456BD2900EBB24E /* GXPushTransitionContext.m */; };
+		8E2679042456DABC00EBB24E /* GXPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2679032456DABC00EBB24E /* GXPlayerManager.m */; };
+		8E2679082456EC6E00EBB24E /* GXPresentTransitionTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2679072456EC6E00EBB24E /* GXPresentTransitionTableVC.m */; };
+		8E26790B2456ECFA00EBB24E /* GXPresentTransitionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E26790A2456ECFA00EBB24E /* GXPresentTransitionContext.m */; };
+		8E998EFF24568665006DFFDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E998EFE24568665006DFFDA /* AppDelegate.m */; };
+		8E998F0224568665006DFFDA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E998F0124568665006DFFDA /* SceneDelegate.m */; };
+		8E998F0524568665006DFFDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E998F0424568665006DFFDA /* ViewController.m */; };
+		8E998F0824568665006DFFDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E998F0624568665006DFFDA /* Main.storyboard */; };
+		8E998F0A24568666006DFFDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E998F0924568666006DFFDA /* Assets.xcassets */; };
+		8E998F0D24568666006DFFDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E998F0B24568666006DFFDA /* LaunchScreen.storyboard */; };
+		8E998F1024568666006DFFDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E998F0F24568666006DFFDA /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E2678F024568E3D00EBB24E /* GXPushTransitionTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXPushTransitionTableVC.h; sourceTree = "<group>"; };
+		8E2678F124568E3D00EBB24E /* GXPushTransitionTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXPushTransitionTableVC.m; sourceTree = "<group>"; };
+		8E2678F5245691BA00EBB24E /* GXPlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXPlayerVC.h; sourceTree = "<group>"; };
+		8E2678F6245691BA00EBB24E /* GXPlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXPlayerVC.m; sourceTree = "<group>"; };
+		8E2678F82456920200EBB24E /* GXFullScreenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXFullScreenVC.h; sourceTree = "<group>"; };
+		8E2678F92456920200EBB24E /* GXFullScreenVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXFullScreenVC.m; sourceTree = "<group>"; };
+		8E2678FB2456BB4A00EBB24E /* GXNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXNavigationVC.h; sourceTree = "<group>"; };
+		8E2678FC2456BB4A00EBB24E /* GXNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXNavigationVC.m; sourceTree = "<group>"; };
+		8E2678FF2456BD2900EBB24E /* GXPushTransitionContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXPushTransitionContext.h; sourceTree = "<group>"; };
+		8E2679002456BD2900EBB24E /* GXPushTransitionContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXPushTransitionContext.m; sourceTree = "<group>"; };
+		8E2679022456DABC00EBB24E /* GXPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXPlayerManager.h; sourceTree = "<group>"; };
+		8E2679032456DABC00EBB24E /* GXPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXPlayerManager.m; sourceTree = "<group>"; };
+		8E2679062456EC6E00EBB24E /* GXPresentTransitionTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXPresentTransitionTableVC.h; sourceTree = "<group>"; };
+		8E2679072456EC6E00EBB24E /* GXPresentTransitionTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXPresentTransitionTableVC.m; sourceTree = "<group>"; };
+		8E2679092456ECFA00EBB24E /* GXPresentTransitionContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXPresentTransitionContext.h; sourceTree = "<group>"; };
+		8E26790A2456ECFA00EBB24E /* GXPresentTransitionContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXPresentTransitionContext.m; sourceTree = "<group>"; };
+		8E26790D2456F37400EBB24E /* GXTransitionDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXTransitionDefine.h; sourceTree = "<group>"; };
+		8E998EFA24568665006DFFDA /* GXFullScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXFullScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E998EFD24568665006DFFDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E998EFE24568665006DFFDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E998F0024568665006DFFDA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8E998F0124568665006DFFDA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8E998F0324568665006DFFDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E998F0424568665006DFFDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E998F0724568665006DFFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E998F0924568666006DFFDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E998F0C24568666006DFFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E998F0E24568666006DFFDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E998F0F24568666006DFFDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E998EF724568665006DFFDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E2678EF24568DDD00EBB24E /* PushTransition */ = {
+			isa = PBXGroup;
+			children = (
+				8E2678F024568E3D00EBB24E /* GXPushTransitionTableVC.h */,
+				8E2678F124568E3D00EBB24E /* GXPushTransitionTableVC.m */,
+			);
+			path = PushTransition;
+			sourceTree = "<group>";
+		};
+		8E2678F32456916E00EBB24E /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				8E2678F5245691BA00EBB24E /* GXPlayerVC.h */,
+				8E2678F6245691BA00EBB24E /* GXPlayerVC.m */,
+				8E2679022456DABC00EBB24E /* GXPlayerManager.h */,
+				8E2679032456DABC00EBB24E /* GXPlayerManager.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		8E2678F42456917A00EBB24E /* FullScreenVC */ = {
+			isa = PBXGroup;
+			children = (
+				8E2678F82456920200EBB24E /* GXFullScreenVC.h */,
+				8E2678F92456920200EBB24E /* GXFullScreenVC.m */,
+			);
+			path = FullScreenVC;
+			sourceTree = "<group>";
+		};
+		8E2678FE2456BC9E00EBB24E /* TransitionContext */ = {
+			isa = PBXGroup;
+			children = (
+				8E2678FF2456BD2900EBB24E /* GXPushTransitionContext.h */,
+				8E2679002456BD2900EBB24E /* GXPushTransitionContext.m */,
+				8E2679092456ECFA00EBB24E /* GXPresentTransitionContext.h */,
+				8E26790A2456ECFA00EBB24E /* GXPresentTransitionContext.m */,
+			);
+			path = TransitionContext;
+			sourceTree = "<group>";
+		};
+		8E2679052456EC4E00EBB24E /* PresentTransition */ = {
+			isa = PBXGroup;
+			children = (
+				8E2679062456EC6E00EBB24E /* GXPresentTransitionTableVC.h */,
+				8E2679072456EC6E00EBB24E /* GXPresentTransitionTableVC.m */,
+			);
+			path = PresentTransition;
+			sourceTree = "<group>";
+		};
+		8E26790C2456F36600EBB24E /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				8E26790D2456F37400EBB24E /* GXTransitionDefine.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		8E998EF124568665006DFFDA = {
+			isa = PBXGroup;
+			children = (
+				8E998EFC24568665006DFFDA /* GXFullScreen */,
+				8E998EFB24568665006DFFDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E998EFB24568665006DFFDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E998EFA24568665006DFFDA /* GXFullScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E998EFC24568665006DFFDA /* GXFullScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8E26790C2456F36600EBB24E /* Define */,
+				8E2679052456EC4E00EBB24E /* PresentTransition */,
+				8E2678FE2456BC9E00EBB24E /* TransitionContext */,
+				8E2678F42456917A00EBB24E /* FullScreenVC */,
+				8E2678F32456916E00EBB24E /* Player */,
+				8E2678EF24568DDD00EBB24E /* PushTransition */,
+				8E998EFD24568665006DFFDA /* AppDelegate.h */,
+				8E998EFE24568665006DFFDA /* AppDelegate.m */,
+				8E998F0024568665006DFFDA /* SceneDelegate.h */,
+				8E998F0124568665006DFFDA /* SceneDelegate.m */,
+				8E998F0324568665006DFFDA /* ViewController.h */,
+				8E998F0424568665006DFFDA /* ViewController.m */,
+				8E2678FB2456BB4A00EBB24E /* GXNavigationVC.h */,
+				8E2678FC2456BB4A00EBB24E /* GXNavigationVC.m */,
+				8E998F0624568665006DFFDA /* Main.storyboard */,
+				8E998F0924568666006DFFDA /* Assets.xcassets */,
+				8E998F0B24568666006DFFDA /* LaunchScreen.storyboard */,
+				8E998F0E24568666006DFFDA /* Info.plist */,
+				8E998F0F24568666006DFFDA /* main.m */,
+			);
+			path = GXFullScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E998EF924568665006DFFDA /* GXFullScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E998F1324568666006DFFDA /* Build configuration list for PBXNativeTarget "GXFullScreen" */;
+			buildPhases = (
+				8E998EF624568665006DFFDA /* Sources */,
+				8E998EF724568665006DFFDA /* Frameworks */,
+				8E998EF824568665006DFFDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GXFullScreen;
+			productName = GXFullScreen;
+			productReference = 8E998EFA24568665006DFFDA /* GXFullScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E998EF224568665006DFFDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = sgx;
+				TargetAttributes = {
+					8E998EF924568665006DFFDA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 8E998EF524568665006DFFDA /* Build configuration list for PBXProject "GXFullScreen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E998EF124568665006DFFDA;
+			productRefGroup = 8E998EFB24568665006DFFDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E998EF924568665006DFFDA /* GXFullScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E998EF824568665006DFFDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E998F0D24568666006DFFDA /* LaunchScreen.storyboard in Resources */,
+				8E998F0A24568666006DFFDA /* Assets.xcassets in Resources */,
+				8E998F0824568665006DFFDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E998EF624568665006DFFDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E998F0524568665006DFFDA /* ViewController.m in Sources */,
+				8E998EFF24568665006DFFDA /* AppDelegate.m in Sources */,
+				8E2678F224568E3D00EBB24E /* GXPushTransitionTableVC.m in Sources */,
+				8E26790B2456ECFA00EBB24E /* GXPresentTransitionContext.m in Sources */,
+				8E2678FD2456BB4A00EBB24E /* GXNavigationVC.m in Sources */,
+				8E998F1024568666006DFFDA /* main.m in Sources */,
+				8E2679042456DABC00EBB24E /* GXPlayerManager.m in Sources */,
+				8E2678F7245691BA00EBB24E /* GXPlayerVC.m in Sources */,
+				8E2679082456EC6E00EBB24E /* GXPresentTransitionTableVC.m in Sources */,
+				8E2679012456BD2900EBB24E /* GXPushTransitionContext.m in Sources */,
+				8E998F0224568665006DFFDA /* SceneDelegate.m in Sources */,
+				8E2678FA2456920200EBB24E /* GXFullScreenVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E998F0624568665006DFFDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E998F0724568665006DFFDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E998F0B24568666006DFFDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E998F0C24568666006DFFDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E998F1124568666006DFFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E998F1224568666006DFFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E998F1424568666006DFFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GXFullScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sgx.GXFullScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E998F1524568666006DFFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GXFullScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sgx.GXFullScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E998EF524568665006DFFDA /* Build configuration list for PBXProject "GXFullScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E998F1124568666006DFFDA /* Debug */,
+				8E998F1224568666006DFFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E998F1324568666006DFFDA /* Build configuration list for PBXNativeTarget "GXFullScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E998F1424568666006DFFDA /* Debug */,
+				8E998F1524568666006DFFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E998EF224568665006DFFDA /* Project object */;
+}
